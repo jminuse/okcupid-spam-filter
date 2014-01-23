@@ -31,8 +31,8 @@ def score_message(message_original):
 		if string in message: score += 10
 	return score
 
-username = 'fill this in'
-password = 'fill this in too'
+username = raw_input("Username: ")
+password = raw_input("Password: ")
 if username == 'fill this in':
 	print 'Fill in your username and password!'
 	sys.exit(1)
